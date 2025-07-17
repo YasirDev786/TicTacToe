@@ -28,8 +28,7 @@ A responsive, dark-themed **Tic Tac Toe (X-O)** game built with **HTML**, **CSS*
 
 ## 🖼️ Live Demo
 
-[🔗 Play Now](https://your-live-demo-link.com)
-
+[🔗 Play Now](https://tic-tac-toe-omega-three-49.vercel.app/)
 ---
 
 ## 🚀 How to Run Locally
@@ -41,17 +40,8 @@ git clone https://github.com/YasirDev786/TicTacToe.git
 cd TicTacToe
 Open index.html in any browser
 
-bash
-Copy
-Edit
 # You can simply double-click index.html
 ✅ That’s it! Start playing.
-
-📸 Screenshots
-💻 Desktop View
-
-
-📱 Mobile View
 
 ⚙️ Game Logic Overview
 Alternates between Player 1 and Player 2
