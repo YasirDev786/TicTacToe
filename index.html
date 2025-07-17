@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tik Tak Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading">Tic Tac Toe</h1>
+
+    <!-- Game buttons -->
+
+    <div class="container">
+      <div class="box">
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+      </div>
+    </div>
+
+    <!-- Buttons for Player1 , Player2 and Play again -->
+
+    <div class="buttons">
+      <button class="style-text playerBtn" id="player1">Player 1</button>
+      <button class="style-text" id="end-btn" onclick="endGame()">
+        Play Again
+      </button>
+      <button class="style-text playerBtn" id="player2">Player 2</button>
+    </div>
+
+    <!-- Result will be shown here  -->
+
+    <div class="result"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

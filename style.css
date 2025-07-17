@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.box {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  border-radius: 1rem;
+  background-color: black;
+  border: 2px solid gray;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+}
+.heading {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+.btn {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.813);
+  background-color: rgba(0, 0, 255, 0.671);
+  border: 2px solid gray;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.style-text {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+#end-btn {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 4rem;
+  background-color: red;
+  border-radius: 0.3rem;
+  border: none;
+  box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.813);
+  padding: 1rem 2rem;
+}
+.playerBtn {
+  border: none;
+  padding: 1rem 2.5rem;
+  background-color: green;
+  box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.813);
+  margin: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* Animation on Buttons */
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.bounce {
+  animation: bounce 0.6s infinite;
+}
+.result {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+
+/* Responsiveness  */
+
+@media (max-width: 755px) {
+  .buttons {
+    flex-direction: column;
+  }
+  #end-btn {
+    margin-top: 0px;
+  }
+  .result {
+    font-size: 1.5rem;
+  }
+  .playerBtn {
+    margin-top: 1.5rem;
+  }
+}
